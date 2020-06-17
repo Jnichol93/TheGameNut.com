@@ -1,0 +1,211 @@
+@media only screen and (min-width: 888px) {
+
+html
+body {
+
+  height: 100%;
+background-color: #3a3b3c;
+
+overflow: hidden;
+
+}
+
+.container {
+min-height: 100%;
+}
+
+.container:hover {
+  color: grey;
+}
+.containerr {
+  position: absolute;
+height: 50%;
+width:60%;
+border-bottom: solid #116860 5px;
+background-color: grey;
+left: 20%;
+top:10%;
+z-index: auto;
+text-align: center;
+overflow: hidden;
+}
+
+
+.containerr img {
+position: absolute;
+left: 0%;
+width: 500px;
+height: 500px;;
+z-index: 10;
+overflow: hidden;
+
+}
+ h1 {
+  color: #116860;
+position: absolute;
+left: 20%;
+top: 0%;
+font-size: 10vw;
+z-index: 1;
+text-shadow: 5px 5px black;
+font-family: 'Racing Sans One', cursive;
+
+
+}
+.socials {
+  position: absolute;
+  height: 10%;
+width: 100%;
+left: 50%;
+
+}
+.containerr .insta {
+  background-image: url(insta.webp);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+position: absolute;
+  height: 100px;
+  width: 10%;
+  left: 55%;
+  top: 20%;
+  z-index: 1;
+
+}
+.containerr .facey {
+  background-image: url(facey.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+position: absolute;
+  height: 100px;
+  width: 10%;
+  left: 88%;
+  top: 20%;
+  z-index: 1;
+}
+.containerr .youtube {
+  background-image: url(youtube.webp);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+position: absolute;
+  height: 100px;
+  width: 10%;
+  left: 77%;
+  top: 20%;
+  z-index: 1;
+}
+.containerr .twitter {
+  background-image: url(twit.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+position: absolute;
+  height: 100px;
+  width: 10%;
+  left: 66%;
+  top: 20%;
+  z-index: 1;
+}
+
+
+.containerr .Enter h3
+ {
+   color: black;
+   height: 15%;
+   width: 20%;
+   background-color:#116860;
+  position: absolute;
+  top: 80%;
+  left: 65%;
+  border: outset black 5px;
+  font-weight: bolder;
+  opacity: 0.7;
+  border-radius: 50px;
+
+
+}
+.Enter:hover h3 {
+
+  opacity: 1;
+  cursor: crosshair;
+  border: inset black 5px;
+}
+.container-fluid {
+
+position: absolute;
+left: 0%;
+top: 61%;
+height: 40%;
+width: 100%;
+
+}
+
+
+
+}
+.bar {
+  color: black;
+font-size: 20px;
+background-color: #116860;
+}
+
+
+.container1 {
+  color: Black;
+text-align: center;
+position: absolute;
+  top: 70%;
+  left: 20%;
+  width: 60%;
+  height: 20%;
+line-height: 2;
+  z-index: auto;
+  border-left: solid #116860 5px;
+  border-right: solid #116860 5px;
+}
+.container1 h2 {
+
+color: #116860;
+text-shadow: black 2px 2px;
+}
+
+.redtext {
+
+  color: red;
+}
+
+
+
+
+
+/* footer */
+
+.footer {
+color: black;
+background-color: #202020;
+height:100px;
+position: absolute;
+bottom: 0px;
+left: 0px;
+width: 100%;
+text-align: center;
+}
+
+.footer .footerbottom {
+  background-color: #202020;
+  color: grey;
+  height: 50px;
+  text-align: center;
+  position:absolute;
+  bottom: 0px;
+  left: 0px;
+
+  width: 100%;
+}
+
+
+
+
+/* Media Queries */
